@@ -33,7 +33,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "1679112664",
+        "value": "7458057585",
         "required": true
       },
       "STRING_SESSION": {
@@ -53,7 +53,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/IamDvis/DV-MUSIC-V3",
+        "value": "https://github.com/xkrishmishra/teach",
         "required": true
       },
       "UPSTREAM_BRANCH": {
