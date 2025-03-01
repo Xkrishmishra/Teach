@@ -71,7 +71,7 @@ logging.getLogger("httpx").setLevel(logging.ERROR)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 
-LOGGER = logging.getLogger("DURGESH")
+LOGGER = logging.getLogger("KRISHNETWORK")
 
 
 # config variables
@@ -83,7 +83,7 @@ API_HASH = getenv("API_HASH", None)
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 STRING_SESSION = getenv("STRING_SESSION", None)
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
+OWNER_ID = int(getenv("OWNER_ID", "7458057585"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",0))
 START_IMAGE_URL = getenv("START_IMAGE_URL", None)
 
@@ -135,7 +135,7 @@ call = PyTgCalls(app)
 call_config = GroupCallConfig(auto_start=False)
 
 mongo_async_cli = _mongo_async_(MONGO_DB_URL)
-mongodb = mongo_async_cli.dvisxdb
+mongodb = mongo_async_cli.krishdb
 
 # store start time
 __start_time__ = time.time()
@@ -203,8 +203,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("net_pro_max")
-        await app.join_chat("ai_image_junction")
+        await app.join_chat("Krishnetwork")
+        await app.join_chat("Krishsupport")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -221,7 +221,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @net_pro_max !!")
+    LOGGER.info("✅ Now Do Visit: @krishnetwotk !!")
     await idle()
 
 
@@ -411,7 +411,7 @@ async def start_message_private(client, message):
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│               [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/DvisDmBot?start)
+│               [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/KrishsupportBot?start)
 ╰───────────────────⦿
             """
 
@@ -430,17 +430,17 @@ async def start_message_private(client, message):
                     ),
                     InlineKeyboardButton(
                         text="˹ ᴍᴜsɪᴄ ˼",
-                        callback_data="DVIS_MUSIC",
+                        callback_data="KRISH_MUSIC",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
                         text="˹ ᴧʙᴏᴜᴛ ˼",
-                        callback_data="DVIS",
+                        callback_data="KRISH",
                     ),
                     InlineKeyboardButton(
                         text="˹ ʀᴇᴘᴏ ˼",
-                        url="https://github.com/IamDvis/DV-MUSIC-V3",
+                        url="https://t.me/Krishsupport",
                     ),
                 ]
             ]
@@ -468,11 +468,11 @@ async def start_message_private(client, message):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/ai_image_junction")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/krishnetwork")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/net_pro_max"),
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/+ifTJa6EmP4A1MTA9")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/krishnetwork"),
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/Krishsupport")
         ],
         [
             InlineKeyboardButton("〆 ʙᴧᴄᴋ 〆", callback_data="back_to_home")
@@ -485,7 +485,7 @@ CBUTTON = InlineKeyboardMarkup(
 ABUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("DVIS_MUSIC", callback_data="back_to_home")
+            InlineKeyboardButton("KRISH_MUSIC", callback_data="back_to_home")
         ]
     ]
 )
@@ -493,7 +493,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【 ᴅᴠɪs-ϻυsɪᴄ 】](https://t.me/+ifTJa6EmP4A1MTA9) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【 KRISh-ϻυsɪᴄ 】](https://t.me/Krishsupport) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **✦ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -505,10 +505,10 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/net_pro_max)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/Krishnetwork)**"""
 
 HELP_X = """```
-    【 ᴅᴠɪs-ϻυsɪᴄ 】 ᴍᴇɴᴜ```
+    【 KRISH-ϻυsɪᴄ 】 ᴍᴇɴᴜ```
 
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 
@@ -524,10 +524,10 @@ HELP_X = """```
 
 ✦ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [ᴅᴠɪs](https://t.me/DvisDmBot?start)**"""
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [ᴅᴠɪs](https://t.me/KrishsupportBot?start)**"""
 
 # Callback query handler
-@bot.on_callback_query(filters.regex("DVIS_MUSIC"))
+@bot.on_callback_query(filters.regex("KRISH_MUSIC"))
 async def helper_cb(client, CallbackQuery):
     await CallbackQuery.edit_message_text(HELP_X, reply_markup=ABUTTON)
     
@@ -568,7 +568,7 @@ async def back_to_home_menu(client, query):
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│               [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/DvisDmBot?start)
+│               [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/KrishsupportBot?start)
 ╰───────────────────⦿
         """
 
@@ -587,17 +587,17 @@ async def back_to_home_menu(client, query):
                 ),
                 InlineKeyboardButton(
                     text="˹ ᴍᴜsɪᴄ ˼",
-                    callback_data="DVIS_MUSIC",
+                    callback_data="KRISH_MUSIC",
                 ),
             ],
             [
                 InlineKeyboardButton(
                     text="˹ ᴧʙᴏᴜᴛ ˼",
-                    callback_data="DVIS",
+                    callback_data="KRISH",
                 ),
                 InlineKeyboardButton(
                     text="˹ ʀᴇᴘᴏ ˼",
-                    url="https://github.com/IamDvis/DV-MUSIC-V3",  # Callback data for Owner button
+                    url="https://t.me/Krishsupport",  # Callback data for Owner button
                 ),
             ]
         ]
@@ -905,7 +905,7 @@ async def stream_logger(
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/+7ehnJA3aMb84OGNl)**
+❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/Krishsupport)**
                 """
             else:
                 caption = f"""
@@ -916,7 +916,7 @@ async def stream_logger(
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @net_pro_max
+❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @krishnetwork
                 """
             try:
                 await bot.send_photo(LOG_GROUP_ID, photo=thumbnail, caption=caption)
@@ -990,8 +990,8 @@ async def change_stream(chat_id):
                 )
             ],
             [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/net_pro_max"),
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/+ifTJa6EmP4A1MTA9")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/krishnetwork"),
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/Krishsupport")
             ],
             [
                 InlineKeyboardButton(
@@ -1094,8 +1094,8 @@ async def stream_audio_or_video(client, message):
                 )
                     ],
                     [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/net_pro_max"),
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/+ifTJa6EmP4A1MTA9")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/krishnetwork"),
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/Krishsupport")
                     ],
                     [
                         InlineKeyboardButton(
@@ -1178,8 +1178,8 @@ async def stream_audio_or_video(client, message):
                 )
             ],
             [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/net_pro_max"),
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/+ifTJa6EmP4A1MTA9")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/krishnetwork"),
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ  ˼", url="https://t.me/Krishsupport")
             ],
             [
                 InlineKeyboardButton(
@@ -1219,7 +1219,7 @@ async def stream_audio_or_video(client, message):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/+7ehnJA3aMb84OGNl)**
+❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/Krishsupport)**
                 """
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
@@ -1330,7 +1330,7 @@ async def stream_audio_or_video(client, message):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @net_pro_maxx
+❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @krishnetwork
                 """
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
@@ -1521,11 +1521,11 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/+ifTJa6EmP4A1MTA9"
+                url="https://t.me/Krishsupport"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com/IamDvis/DV-MUSIC-V3"
+                url="https://t.me/Krishsupport"
             ),
         ],
         [
@@ -1585,7 +1585,7 @@ async def update_repo_latest(client, message):
         f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
     )
     os.system("pip3 install -r requirements.txt --force-reinstall")
-    os.system(f"kill -9 {os.getpid()} && python3 -m DvisMusic")
+    os.system(f"kill -9 {os.getpid()} && python3 -m KrishMusic")
     sys.exit()
     return
 
@@ -1597,7 +1597,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**【 ᴅᴠɪs-ϻυsɪᴄ 】༗**"
+    caption = "**【 KRISH-ϻυsɪᴄ 】༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
