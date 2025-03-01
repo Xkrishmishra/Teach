@@ -1,1 +1,1 @@
-worker: python3 -m DvisMusic
+worker: python3 -m KRISHMusic
